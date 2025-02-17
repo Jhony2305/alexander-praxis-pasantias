@@ -39,7 +39,7 @@ const HomeSlider = () => {
     return (
         <>
             <div className="react-slider-part">
-                <ModalVideo channel='youtube' isOpen={isOpen} videoId='e5Hc2B50Z7c' onClose={() => { openModal(); }} />
+                <ModalVideo channel='youtube' isOpen={isOpen} videoId='f-BnCysIkCo' onClose={() => { openModal(); }} />
                 <div className="home-sliders home2">
                     <Slider {...sliderSettings}>
                         <div className="single-slide">
@@ -50,13 +50,13 @@ const HomeSlider = () => {
                             <div className="container">
                                 <div className="slider-content">
                                     <div className="content-part">
-                                        <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="1s">Great Quality Cocial life</span>
+                                        <span className="slider-pretitle wow animate__fadeInUp" style={{ backgroundColor: '#f8360c ', color: 'white' }} data-wow-duration="1s">SOMOS PRAXIS</span>
                                         <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
-                                            Discover the world of<br />
-                                            possible university.
+                                        El conocimiento cobra<br /> sentido cuando se <br />
+                                        aplica en la práctica.
                                         </h2>
                                         <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
-                                            <Link to="/about" className="react-btn-border">Admissions</Link>
+                                            <Link to="/about" className="react-btn-border">Cursos</Link>
                                         </div>
                                     </div>
                                 </div>
