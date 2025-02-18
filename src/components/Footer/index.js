@@ -25,6 +25,7 @@ const Footer = (props) => {
                                     </ul>                               
                                 </div>
                             </div>
+                            /*pie de pagina*/
                             <div className="col-lg-3 md-mb-30">
                                 <div className="footer-widget footer-widget-2">
                                     <h3 className="footer-title">About Us</h3>

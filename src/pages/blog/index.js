@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import Breadcrumb from '../../components/Breadcrumb';
 import ScrollToTop from '../../components/ScrollTop';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo.png';
 
 const Blog = () => {
     return (

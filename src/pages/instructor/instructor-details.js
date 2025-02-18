@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import InstructorDetailsMain from './InstructorDetailsMain';
 import ScrollToTop from '../../components/ScrollTop';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo.png';
 
 const InstructorDetails = () => {
 

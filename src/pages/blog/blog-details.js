@@ -7,7 +7,7 @@ import Breadcrumb from '../../components/Breadcrumb/BlogBreadcrumbs';
 import ScrollToTop from '../../components/ScrollTop';
 import posts from '../../data/Posts.json';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo.png';
 
 const BlogDetails = () => {
 

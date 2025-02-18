@@ -6,7 +6,7 @@ import InstructorMain from './InstructorMain';
 import ScrollToTop from '../../components/ScrollTop';
 
 // Image
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo.png';
 
 const Instructor = () => {
     return (

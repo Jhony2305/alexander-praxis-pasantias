@@ -7,7 +7,7 @@ import CourseDetailsMain from './CourseDetailsMain';
 import ScrollToTop from '../../components/ScrollTop';
 import courses from '../../data/Courses.json';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/logo.png';
 
 const CourseDetails = () => {
 

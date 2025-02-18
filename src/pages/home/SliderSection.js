@@ -76,12 +76,13 @@ const HomeSlider = () => {
                             <div className="container">
                                 <div className="slider-content">
                                     <div className="content-part">
-                                        <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="3s">Great Quality Cocial life</span>
+                                    <span className="slider-pretitle wow animate__fadeInUp" style={{ backgroundColor: '#f8360c ', color: 'white' }} data-wow-duration="1s">SOMOS FUTURO</span>
+
                                         <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
-                                            Discover the world of<br /> possible university.
+                                        Mejora tus habilidades <br />laborales con <br />nuestra capacitación
                                         </h2>
                                         <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
-                                            <Link to="/about" className="react-btn-border">Admissions</Link>
+                                            <Link to="/about" className="react-btn-border">Información</Link>
                                         </div>
                                     </div>
                                 </div>
