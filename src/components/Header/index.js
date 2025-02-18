@@ -90,21 +90,7 @@ const Header = (props) => {
 										</button>
 									</div>
 									<div className={menuOpen ? "react-inner-menus menu-open" : "react-inner-menus"}>
-										{
-											menuCategoryEnable ?
-											<div className="cate-part">
-												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
-												<ul className="react-category-menu">
-													<li><Link to="#">Institución <i className="arrow_carrot-down"></i></Link> 
-														<ul>
-															<li><Link to="/course">English Book</Link></li>
-															<li><Link to="/course">Math Book</Link></li>
-															<li><Link to="/course">Story Book</Link></li>
-														</ul>
-													</li>
-												</ul>
-											</div> : ''
-										}
+										
 										<ul id="backmenu" className="react-menus react-sub-shadow">
 											<MenuItems 
 												parentMenu = {parentMenu}

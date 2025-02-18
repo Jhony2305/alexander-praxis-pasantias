@@ -56,6 +56,7 @@ const MenuItems = (props) => {
 
     return (
            <>
+                
                 <li className={home ? "menu-active" : ""}>
                  <Link to="/" className={home ? "menu-active" : ""}>
                  Inicio
@@ -63,24 +64,24 @@ const MenuItems = (props) => {
                  </li>
             <li className={parentMenu === 'page' || parentMenu === 'event'  ? 'has-sub menu-active' : 'has-sub'}>
                 <Link to="#" className={ page ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('page'); }}>
-                    Pages
+                Institución
                     <span className="arrow "></span>
                 </Link>
                 <ul className={page ? "sub-menu sub-menu-open" : "sub-menu"}>
                     <li className={location.pathname === '/about' ? 'menu-active' : ''}>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">Historia</Link>
                     </li>
                     <li className={location.pathname === "/instructor" ? "menu-active" : ""}>
-                        <Link to="/instructor">Instructor</Link>
+                        <Link to="/instructor">Misión, Visión </Link>
                     </li>
                     <li className={postURL[1] === "instructor" && pathLength > 2 ? "menu-active" : ""}>
-                        <Link to="/instructor/1">Profile</Link>
+                        <Link to="/instructor/1">Plantel Docente</Link>
                     </li>
                     <li className={location.pathname === "/login" ? "menu-active" : ""}>
-                        <Link to="/login">Login</Link>
+                        <Link to="/login">Asesores Académicos</Link>
                     </li>
                     <li className={location.pathname === "/signup" ? "menu-active" : ""}>
-                        <Link to="/signup">Signup</Link>
+                        <Link to="/signup">Modelo Eduxativo </Link>
                     </li>
                     <li className={parentMenu === 'event' ? 'has-sub menu-active' : 'has-sub'}>
                         <Link to="#" className={event ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('event'); }}>Events</Link>
