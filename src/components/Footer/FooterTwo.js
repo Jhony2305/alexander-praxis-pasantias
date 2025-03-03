@@ -92,7 +92,7 @@ const FooterTwo = (props) => {
                         <div className="react-copy-right">
                             <ul className="social-links">
                                 <li className="follow">Follow us</li>
-                                <li><Link to="#"><span aria-hidden="true" className="social_facebook"></span></Link></li>
+                                <li><Link to="https://www.facebook.com/praxisEC"><span aria-hidden="true" className="social_facebook"></span></Link></li>
                                 <li><Link to="#"><span aria-hidden="true" className="social_twitter"></span></Link></li>
                                 <li><Link to="#"><span aria-hidden="true" className="social_linkedin"></span></Link></li>
                             </ul>
