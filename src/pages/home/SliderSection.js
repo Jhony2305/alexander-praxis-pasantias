@@ -63,7 +63,7 @@ const HomeSlider = () => {
                                 <div className="event__video-btn--play wow animate__fadeInUp" data-wow-duration="1.4s">
                                 <Link to="#" className="event__video-btn--play-btn custom-popup" onClick={() => { openModal(); }}>
                                     <i className="arrow_triangle-right"></i>
-                                    <em>Watch Video <br />Intro</em>
+                                    <em> Ver <br />Video</em>
                                 </Link>
                                 </div>
                             </div>                        
@@ -89,7 +89,7 @@ const HomeSlider = () => {
                                 <div className="event__video-btn--play wow animate__fadeInUp" data-wow-duration="1.4s">
                                 <Link to="#" className="event__video-btn--play-btn custom-popup" onClick={() => { openModal(); }}>
                                     <i className="arrow_triangle-right"></i>
-                                    <em>Watch Video <br />Intro</em>
+                                    <em> Ver <br />Video</em>
                                 </Link>
                                 </div>
                             </div>                        
