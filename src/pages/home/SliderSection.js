@@ -3,8 +3,8 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
 
-import sliderImg1 from "../../assets/images/slider/1.jpg";
-import sliderImg2 from "../../assets/images/slider/2.jpg";
+import sliderImg1 from "../../assets/images/slider/1.png";
+import sliderImg2 from "../../assets/images/slider/2.png";
 import sliderImg11 from "../../assets/images/slider/11.jpg";
 import sliderImg12 from "../../assets/images/slider/12.jpg";
 
@@ -50,13 +50,13 @@ const HomeSlider = () => {
                             <div className="container">
                                 <div className="slider-content">
                                     <div className="content-part">
-                                        <span className="slider-pretitle wow animate__fadeInUp" style={{ backgroundColor: '#f8360c ', color: 'white' }} data-wow-duration="1s">SOMOS PRAXIS</span>
+                                        <span className="slider-pretitle wow animate__fadeInUp" style={{ backgroundColor: '#2d8dca ', color: 'white' }} data-wow-duration="1s">SOMOS PRAXIS</span>
                                         <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
                                         El conocimiento cobra<br /> sentido cuando se <br />
                                         aplica en la práctica.
                                         </h2>
                                         <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
-                                            <Link to="/about" className="react-btn-border">Cursos</Link>
+                                            <Link to="/course" className="react-btn-border">Cursos</Link>
                                         </div>
                                     </div>
                                 </div>
