@@ -60,14 +60,14 @@ $titleColor: #00306E;
 $primaryColor: #3270FC;
 $secondaryColor: #00306E;
 $titleColor6: #00306e;
-$hoverColor: #594ef8;
+$hoverColor: #023511;
 $whiteColor: #ffffff;
 $black-color: #000;
 $heading-color: #252525;
-$kidscolor: #fd4680;
+$kidscolor: #05410f;
 $paragraphColor: #f5f5f5;
 $homesix-textColor: #4d5765;
-$homesix-primaryColor: #d20936;
+$homesix-primaryColor: #0d8832;
 $homeseven-primaryColor: #316ffb;
 
 
@@ -623,7 +623,7 @@ ul {
             color: #00306e;
 
             &:hover {
-                color: #D2093C !important;
+                color: #ea9e2a !important;
             }
         }
         &.menu-active > a {
@@ -640,7 +640,7 @@ ul {
     }
 
     .logo {
-        padding: 14px 0 14px 0;
+        padding: 12px 0 12px 0;
     }
 
     &.react-header-two {
@@ -8448,7 +8448,7 @@ ul {
         line-height: 54px;
 
         em {
-            color: #D2093C;
+            color: #0a7925;
             font-style: normal;
         }
     }
@@ -8477,7 +8477,7 @@ ul {
             color: #777;
 
             a {
-                color: #D2093C;
+                color: #0b8040;
                 text-decoration: underline !important;
                 font-weight: 700;
 
