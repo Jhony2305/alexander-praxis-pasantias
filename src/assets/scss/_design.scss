@@ -261,7 +261,7 @@ ul {
 }
 
 .align-v {
-    align-items: end;
+    align-items: flex-end;
 }
 
 .w-btn {
@@ -1847,7 +1847,7 @@ ul {
         .about-card-item {
             background: $whiteColor;
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             align-items: center;
             padding: 50px;
             border-radius: 5px;
@@ -1926,7 +1926,7 @@ ul {
 
     .coaching-counter {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
 
         .counter-item {
@@ -3962,7 +3962,7 @@ ul {
     .minimized-part {
         .blog-item {
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             margin-bottom: 20px;
 
             .blog-picture {
@@ -5912,7 +5912,7 @@ ul {
     .react-filter {
         display: flex;
         align-items: center;
-        justify-content: end;
+        justify-content: flex-end;
         flex-wrap: wrap;
         margin: -8px 0;
         padding-bottom: 65px;
@@ -6704,7 +6704,7 @@ ul {
 
     .course-inner {
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
 
         .course-hero {
@@ -6739,7 +6739,7 @@ ul {
             .course-contents-inner {
                 display: flex;
                 flex-direction: column;
-                justify-content: start;
+                justify-content: flex-start;
             }
 
             .course-sub-title {
@@ -7608,7 +7608,7 @@ ul {
     .minimized-part {
         .blog-item {
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             align-items: center;
             margin-bottom: 20px;
 
@@ -9268,7 +9268,7 @@ ul {
 
                 ul {
                     display: flex;
-                    justify-content: start;
+                    justify-content: flex-start;
                     margin-left: -5px;
                     margin-top: 20px;
 
@@ -10019,7 +10019,7 @@ ul {
 
             ul {
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start;
                 padding-left: 25px;
                 padding-right: 25px;
 
@@ -10461,7 +10461,7 @@ ul {
         }
 
         .back-pagination {
-            justify-content: start;
+            justify-content: flex-start;
 
             li {
                 a {
@@ -11172,7 +11172,7 @@ body.courses-grid-page {
     }
 
     .back-pagination {
-        justify-content: start;
+        justify-content: flex-start;
     }
 
     .back-pagination li a {
