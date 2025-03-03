@@ -4,10 +4,10 @@ import SectionTitle from '../../components/SectionTitle'
 
 import SingleService from '../../components/Service/SingleService';
 
-import serviceImg1 from '../../assets/images/service/1.png'
-import serviceImg2 from '../../assets/images/service/2.png'
-import serviceImg3 from '../../assets/images/service/3.png'
-import serviceImg4 from '../../assets/images/service/4.png'
+import serviceImg1 from '../../assets/images/service/1.jpg'
+import serviceImg2 from '../../assets/images/service/2.jpg'
+import serviceImg3 from '../../assets/images/service/3.jpg'
+import serviceImg4 from '../../assets/images/service/4.jpg'
 
 const Service = () => {
 

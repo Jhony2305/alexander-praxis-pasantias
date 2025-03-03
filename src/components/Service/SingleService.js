@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import serviceImg from '../../assets/images/service/1.png'
+import serviceImg from '../../assets/images/service/1.jpg'
 
 const SingleService = (props) => {
 	const { itemClass, itemImg, btnText, title } = props;
