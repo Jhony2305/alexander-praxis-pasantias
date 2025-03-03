@@ -14,7 +14,7 @@ const Service = () => {
     return (
         <div className="react_popular_topics pt---100 pb---70">
             <div className="container">
-                <SectionTitle Title="Academics" />
+                <SectionTitle Title="Cursos" />
                 <div className="row">
                     <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.3s">
                         <SingleService
