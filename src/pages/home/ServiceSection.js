@@ -19,25 +19,25 @@ const Service = () => {
                     <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.3s">
                         <SingleService
                             itemImg={serviceImg1}
-                            title="Let’s Talk Science"
+                            title="Especialista en quiropraxia"
                         />
                     </div>
                     <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.5s">
                         <SingleService
                             itemImg={serviceImg2}
-                            title="Innovative Courses"
+                            title="Especialista en tanatopraxia y tanatoestética"
                         />
                     </div>
                     <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.7s">
                         <SingleService
                             itemImg={serviceImg3}
-                            title="Cloud Storage"
+                            title="Especialista en peluquería canina"
                         />
                     </div>
                     <div className="col-lg-3 wow animate__fadeInUp" data-wow-duration="0.9s">
                         <SingleService
                             itemImg={serviceImg4}
-                            title="Online Education"
+                            title="Auxiliar de veterinaria"
                         />
                     </div>
                 </div>
