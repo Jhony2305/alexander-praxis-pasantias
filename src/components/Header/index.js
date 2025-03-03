@@ -56,9 +56,7 @@ const Header = (props) => {
 									<div className="col-lg-5 text-right">
 									<div className="toolbar-sl-share">
                                       <ul className="social-links">
-                                      <li>
-                                          <a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
-
+                                      <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
                                       <li><a href="#"><span aria-hidden="true" className="social_twitter" style={{ fontSize: "28px" }}></span></a></li>
                                     <li><a href="#"><span aria-hidden="true" className="social_linkedin" style={{ fontSize: "28px" }}></span></a></li>
                                      </ul>
