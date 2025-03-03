@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 // Image
 import aboutImg from '../../assets/images/about/ab.png';
-import aboutBadge from '../../assets/images/about/badge.png';
+
 
 const About = () => {
 
@@ -13,7 +13,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about__image">
                             <img src={aboutImg} alt="About" />
-                            <img className="react__shape__ab" src={aboutBadge} alt="Shape Image" />
+                            
                         </div>
                     </div>
                     <div className="col-lg-6">

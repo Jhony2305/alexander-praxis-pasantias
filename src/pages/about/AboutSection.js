@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import aboutImg from '../../assets/images/about/ab.png'
-import shapeImg from '../../assets/images/about/badge.png'
+
 
 const AboutPart = () => {
 
@@ -13,11 +13,11 @@ const AboutPart = () => {
                     <div className="col-lg-6">
                         <div className="about__image wow animate__fadeInUp" data-wow-duration="0.3s">
                             <img src={aboutImg} alt="About" />
-                            <img className="react__shape__ab" src={shapeImg} alt="Shape Image" />
+                            
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="about__content">
+                    <div className="about__content">
                             <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Welcome to aas <br/> <em>Echooling LMS Platform</em></h2>
                             <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Education is both the act of teaching knowledge to others and<br/> the act of receiving knowledge from someone else.</p>
                             <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Have questions?  <Link to="#"> Get Free Guide </Link></p>
