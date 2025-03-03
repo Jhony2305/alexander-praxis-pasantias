@@ -19,7 +19,7 @@ const InstructorMain = () => {
                                     <div className="content__hover">
                                         <p>{data.bio}</p>
                                         <ul>                                            
-                                            <li><a href="https://www.facebook.com/praxisEC"><span aria-hidden="true" className="social_facebook"></span></a></li>
+                                        <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
                                             <li><a href="#"><span aria-hidden="true" className="social_twitter"></span></a></li>
                                             <li><a href="#"><span aria-hidden="true" className="social_linkedin"></span></a></li>
                                         </ul>

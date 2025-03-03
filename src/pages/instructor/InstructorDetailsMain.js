@@ -59,7 +59,7 @@ const InstructorDetailsMain = () => {
                                 <li>Email:<em>{instructor.email}</em> </li>
                                 <li className="social">
                                     Follow: <em>
-                                        <Link to="#"><span aria-hidden="true" className="social_facebook"></span></Link>
+                                    <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
                                         <Link to="#"><span aria-hidden="true" className="social_twitter"></span></Link>
                                         <Link to="#"><span aria-hidden="true" className="social_linkedin"></span></Link>
                                     </em>
