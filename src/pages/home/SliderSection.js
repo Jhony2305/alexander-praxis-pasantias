@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import sliderImg1 from "../../assets/images/slider/1.png";
 import sliderImg2 from "../../assets/images/slider/2.png";
 import sliderImg11 from "../../assets/images/slider/11.jpg";
-import sliderImg12 from "../../assets/images/slider/12.jpg";
+import sliderImg12 from "../../assets/images/slider/11.jpg";
 
 const HomeSlider = () => {
     const [isOpen, setIsOpen] = useState(false);
