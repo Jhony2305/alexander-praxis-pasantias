@@ -84,46 +84,46 @@
     {
         "id": 10,
         "image": "10.jpg",
-        "name": "Jonquil Von",
-        "designation" : "Teaching Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "janquil@echooling.com"
+        "name": "Lic. Beatriz Sánchez  Quiropraxia",
+        "designation" : "Quiropraxia",
+        "bio": " ",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 11,
         "image": "11.jpg",
-        "name": "Piff Jenkins",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "piff@echooling.com"
+        "name": "Lic. Maryerli Yaraure ",
+        "designation" : "Veterinaria",
+        "bio": " ",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 12,
         "image": "12.jpg",
-        "name": "Brian Cumin",
-        "designation" : "Lead Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "brian@echooling.com"
+        "name": "Lic. Desiree Jimenez ",
+        "designation" : "Fisioterapia, Quiropraxia y Acupuntura",
+        "bio": " ",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 13,
         "image": "13.jpg",
-        "name": "Alan Fresco",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "alan@echooling.com"
+        "name": "Lic. Shuyana Yantza ",
+        "designation" : "Veterinaria",
+        "bio": " ",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 14,
         "image": "14.jpg",
-        "name": "Steve Bros",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "steve@echooling.com"
+        "name": "Lic. Elizabeth Sarango ",
+        "designation" : "Podología y EE y dermato",
+        "bio": " ",
+        "phone": " ",
+        "email": ""
     }
 ]
