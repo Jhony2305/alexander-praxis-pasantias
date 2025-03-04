@@ -10137,12 +10137,12 @@ ul {
 
 .count__area {
     .count__width {
-        background: #D2093C;
+        background: #f2aa17;
         padding-top: 50px;
         padding-bottom: 50px;
 
         .col-lg-3 {
-            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            border-right: 1px solid rgba(255, 255, 255, 150);
 
             &:last-child {
                 border-right: none;
@@ -10150,8 +10150,8 @@ ul {
         }
 
         .count__content {
-            text-align: center;
-            padding-top: 15px;
+            text-align: justify;
+            padding-top: 10px;
             padding-bottom: 15px;
 
             .count__content--paragraph {

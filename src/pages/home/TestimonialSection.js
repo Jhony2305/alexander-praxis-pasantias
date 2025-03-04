@@ -38,15 +38,15 @@ const Testimonial = () => {
         <>
             <div className="react-clients react-clientso home-testimonial pt---90 pb---120">
                 <div className="container">
-                    <SectionTitle Title="What our student saying" />
+                    <SectionTitle Title="Lo que dicen nuestros estudiantes" />
                     <div className="client-slider wow animate__fadeInUp" data-wow-duration="0.3s">
                         <Slider {...testimonialSettings}>
                             <SingleTestimonial
                                 itemClass="single-client"
                                 itemImg={testiImg }
-                                Title="Justin Case"
-                                Designation="Student"
-                                Desc="Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in."
+                                Title="Jhony Diaz"
+                                Designation="Estudiante"
+                                Desc="El nivel educativo es alto y orientado a las necesidades prácticas de los temas. Los profesores son magníficos y les agradezco por su apoyo"
                                 ratingCount='4.9'
                                 reviewCount='14'
                                 comaImg={comaImg}
@@ -54,9 +54,28 @@ const Testimonial = () => {
                             <SingleTestimonial
                                 itemClass="single-client"
                                 itemImg={testiImg }
-                                Title="Justin Case"
-                                Designation="Student"
-                                Desc="Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in."
+                                Title="Santiago Ayala"
+                                Designation="Área TIC"
+                                Desc="El Centro de Capacitación PRAXIS ha permitido afianzar mis conocimientos previos en el área"
+                                ratingCount='4.8'
+                                reviewCount='14'
+                                comaImg={comaImg}
+                            />
+                            <SingleTestimonial
+                                itemClass="single-client"
+                                itemImg={testiImg }
+                                Title="Gilbert Oviol"
+                                Designation="Estudiante"
+                                Desc="PRAXIS ha mejorado mi carrera y los instructores brindan una excelente atención. El ambiente colaborativo es motivador. Recomendaría PRAXIS a cualquiera que busque avanzar en su carrera."
+                                reviewCount='14'
+                                comaImg={comaImg}
+                            />
+                            <SingleTestimonial
+                                itemClass="single-client"
+                                itemImg={testiImg }
+                                Title="Anabel Coronel"
+                                Designation="Estudiante"
+                                Desc="El nivel educativo es alto y orientado a las necesidades prácticas de los temas. Los profesores son magníficos y les agradezco por su apoyo"
                                 ratingCount='4.9'
                                 reviewCount='14'
                                 comaImg={comaImg}
@@ -64,29 +83,9 @@ const Testimonial = () => {
                             <SingleTestimonial
                                 itemClass="single-client"
                                 itemImg={testiImg }
-                                Title="Justin Case"
-                                Designation="Student"
-                                Desc="Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in."
-                                ratingCount='4.9'
-                                reviewCount='14'
-                                comaImg={comaImg}
-                            />
-                            <SingleTestimonial
-                                itemClass="single-client"
-                                itemImg={testiImg }
-                                Title="Justin Case"
-                                Designation="Student"
-                                Desc="Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in."
-                                ratingCount='4.9'
-                                reviewCount='14'
-                                comaImg={comaImg}
-                            />
-                            <SingleTestimonial
-                                itemClass="single-client"
-                                itemImg={testiImg }
-                                Title="Justin Case"
-                                Designation="Student"
-                                Desc="Nulla porttitor accumsan tincidunt. vamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut lacinia in."
+                                Title="Katherine Zambrano"
+                                Designation="Estudiante"
+                                Desc="El Centro de Capacitación PRAXIS ha permitido afianzar mis conocimientos previos en el área de estudio respectivo. Además de estar rodeado por una comunidad educativa que apoya y busca el crecimiento profesional"
                                 ratingCount='4.9'
                                 reviewCount='14'
                                 comaImg={comaImg}
