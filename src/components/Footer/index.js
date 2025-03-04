@@ -73,10 +73,10 @@ const Footer = (props) => {
 
                 <div className="copyright">  
                     <div className="container">                  
-                        <div className="react-copy-left">© 2022 <Link to="/">Echooling.</Link> All Rights Reserved</div>
+                        <div className="react-copy-left">© 2025 <Link to="/">Praxis Jhony.</Link> Todos los derechos reservados </div>
                         <div className="react-copy-right">
                             <ul className="social-links">
-                                <li className="follow">Follow us</li>
+                                <li className="follow">Siguenos</li>
                                 <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook"></span> </a></li>
                                 <li><Link to="#"><span aria-hidden="true" className="social_linkedin"></span></Link></li>
                             </ul>
