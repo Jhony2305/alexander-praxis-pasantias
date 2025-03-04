@@ -6,6 +6,7 @@ import instructor1 from '../../assets/images/instructors/9.png'
 import instructor2 from '../../assets/images/instructors/10.png'
 import instructor3 from '../../assets/images/instructors/11.png'
 import instructor4 from '../../assets/images/instructors/12.png'
+import instructor5 from '../../assets/images/instructors/mision1.PNG'
 
 const CourseDetailsMain = (props) => {
     const { eventDate, eventStartTime, eventEndTime, eventLocation, eventCost, eventHost, eventTotalSlot, eventBookedSlot, eventContactNo } = props;
@@ -68,13 +69,16 @@ const CourseDetailsMain = (props) => {
                     <div className="col-lg-4 md-mt-60">
                         <div className="react-sidebar react-back-course2 ml----30">                                                                        
                             
-                            <div className="widget react-date-sec">
-                                <ul className="recent-date">
-                                    <li> D: <b>{eventDate}</b></li>
-                                    <li> Time: <b>{eventStartTime} - {eventEndTime}</b></li>
-                                    <li> Venue: <b>{eventLocation}</b></li>
-                                    <li> Phone: <b>{eventContactNo}</b></li>
-                                </ul>
+                            <div>
+                            
+                                <img src={instructor5} alt="Logo de Praxis" style={{ width: "450px", height: "auto" }} />
+                            </div>                                
+                        </div>
+                        <div className="react-sidebar react-back-course2 ml----30">                                                                        
+                        <p> <br /> </p>
+                            <div>
+                            
+                                <img src={instructor5} alt="Logo de Praxis" style={{ width: "450px", height: "auto" }} />
                             </div>                                
                         </div>
                     </div>
