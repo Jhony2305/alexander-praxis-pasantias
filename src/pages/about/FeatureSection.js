@@ -51,16 +51,14 @@ const Feature = () => {
                     </div>
                     <div className="col-md-4 wow animate__fadeInUp" data-wow-duration="0.5s">
     <div className="item__inner">
-        <div className="icon">
-            <img src={icon2} alt="Icon image" />
-        </div>
+        
         <div className="react-content">
             <h3 className="react-title">Ver documento PDF</h3>
-            <iframe 
-                src="/ruta/del/archivo.pdf" 
-                style={{ width: "100%", height: "500px", border: "none" }} 
-                title="Documento PDF">
-            </iframe>
+            <embed 
+    src="/documents/ResolucionOCC.pdf" 
+    type="application/pdf" 
+    style={{ width: "100%", height: "500px" }} />
+
         </div>
     </div>
 </div>
@@ -68,6 +66,7 @@ const Feature = () => {
                 </div>
                 
             </div>
+            
         </div>
     );
 }
