@@ -53,11 +53,16 @@ const Feature = () => {
     <div className="item__inner">
         
         <div className="react-content">
-            <h3 className="react-title">Ver documento PDF</h3>
-            <embed 
+        <a href="/documents/ResolucionOCC.pdf" target="_blank" rel="noopener noreferrer">
+    Ver PDF en otra pestaña
+</a>
+
+            <iframe 
     src="/documents/ResolucionOCC.pdf" 
-    type="application/pdf" 
-    style={{ width: "100%", height: "500px" }} />
+    style={{ width: "100%", height: "430px", border: "none" }} 
+    title="Documento PDF">
+</iframe>
+
 
         </div>
     </div>
