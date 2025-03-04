@@ -46,23 +46,20 @@ const CourseDetailsMain = (props) => {
                             </ul>
 
                             <ul className="others-instructors">
-                            <li><h3>Attendee List</h3></li>
+                            <li><h3>Personal Administrativo</h3></li>
                             <li>
                                 <span><img src={instructor1} alt="user" /></span>
-                                <span>Eric Widget <em>Teaching Assistant</em></span>
+                                <span>Jorge Vallejos <em>Gerente</em></span>
                             </li>
                             <li>
                                 <span><img src={instructor2} alt="user" /></span>
-                                <span>Hanson Deck <em>Professor</em></span>
+                                <span>Hanson Deck <em>Coordinador</em></span>
                             </li>
                             <li>
                                 <span><img src={instructor3} alt="user" /></span>
-                                <span>Dianne Ameter <em>Special Assistant</em></span>
+                                <span>Dianne Ameter <em>Contabilidad</em></span>
                             </li>
-                            <li>
-                                <span><img src={instructor4} alt="user" /></span>
-                                <span>Hanson Deck <em>Administration</em></span>
-                            </li>
+                            
                         </ul>
                         </div>
                     </div>
