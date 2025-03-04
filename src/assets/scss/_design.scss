@@ -623,11 +623,11 @@ ul {
             color: #00306e;
 
             &:hover {
-                color: #ea9e2a !important;
+                color: #b46913 !important;
             }
         }
         &.menu-active > a {
-            color: #D2093C !important;
+            color: #f58505 !important;
         }
     }
 
@@ -6151,9 +6151,9 @@ ul {
                 color: $whiteColor;
 
                 &:hover {
-                    background: #D2093C;
+                    background: #09a3d2;
                     color: $whiteColor;
-                    border-color: #D2093C;
+                    border-color: #2d8dca;
                 }
             }
         }
@@ -8448,7 +8448,7 @@ ul {
         line-height: 54px;
 
         em {
-            color: #0a7925;
+            color: #f2aa17;
             font-style: normal;
         }
     }
@@ -8461,7 +8461,7 @@ ul {
 
         .about__paragraph {
             font-size: 20px;
-            color: #777777;
+            color: #222121;
             line-height: 30px;
         }
 
@@ -8475,6 +8475,9 @@ ul {
             font-size: 16px;
             line-height: 26px;
             color: #777;
+            
+            
+            
 
             a {
                 color: #0b8040;
@@ -8512,9 +8515,9 @@ ul {
                     }
 
                     &:hover {
-                        background: #D2093C;
+                        background: #f2aa17;
                         color: $whiteColor;
-                        border-color: #D2093C;
+                        border-color: #f2aa17;
                     }
                 }
 
@@ -8538,7 +8541,7 @@ ul {
                         font-weight: 700;
 
                         &:hover {
-                            color: #D2093C;
+                            color: #f2aa17;
                         }
                     }
                 }

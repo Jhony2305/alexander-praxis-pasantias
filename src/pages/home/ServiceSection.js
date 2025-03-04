@@ -9,6 +9,9 @@ import serviceImg2 from '../../assets/images/service/2.jpg'
 import serviceImg3 from '../../assets/images/service/3.jpg'
 import serviceImg4 from '../../assets/images/service/4.jpg'
 
+import { Link, useLocation } from 'react-router-dom';
+
+
 const Service = () => {
 
     return (
@@ -40,8 +43,13 @@ const Service = () => {
                             title="Auxiliar de veterinaria"
                         />
                     </div>
+                    <div className="text-center slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
+                                            <Link to="/course" className="react-btn-border">Más cursos</Link>
+                                        </div>                     
+                                                
                 </div>
             </div>
+            
         </div>
     );
 }
