@@ -15,23 +15,33 @@ const CourseDetailsMain = (props) => {
             <div className="container pb---70">
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className="events-details">
-                            <h3>About The Event</h3>
-                            <p>Tempor orci eu lobortis elementum nibh tellus molestie nunc. Augue interdum velit euismod in. varius sit amet mattis vulputate. Nunc pulvinar sapien et ligula ullamcorper malesuada. Ullamcorper velit sed ullamcorper morbi. Varius morbi enim nunc faucibus a pellentesque sit amet. Bibendum est ultricies integer quis auctor elit. Dui id ornare arcu odio ut sem nulla pharetra. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Lacinia at quis risus sed vulputate odio ut enim cras fermentum odio eu feugiat pretium nibh ipsum.</p>
+                        <div className="events-details"style={{ textAlign: 'justify' }}>
+                            <h3>Misión</h3>
+                            <p>Somos un centro educativo que forma hombres y mujeres, desarrollando todas las competencias laborales y científicas a través de la capacitación y entrenamiento práctico con la finalidad de insertar a las personas al mercado laboral o al mundo del emprendimiento.</p>
+                            <h3>Visión</h3>
+                            <p>Ser reconocidos por la sociedad ecuatoriana e internacional como la mejor opción en entrenamiento y capacitación continua contribuyendo al desarrollo de las personas</p>
+                            <h3>Principios</h3>
+                            <p>
+                                <span style={{ fontWeight: 'bold' }}>Cogobierno:</span> Entendido como la dirección compartida por parte de los diferentes sectores de la comunidad.
+                            </p>
+                                <p>
+                                   <span style={{ fontWeight: 'bold' }}>Igualdad de Oportunidades:</span> Consiste en garantizar a las personas que tengan los mismos derechos y posibilidades de acceso, permanencia, movilidad y egreso.
+                                </p>
+                                 <p>
+                                    <span style={{ fontWeight: 'bold' }}>Autonomía responsable:</span> Asegurará el ejercicio del principio de autonomía responsable requerida para impulsar el desarrollo de su comunidad y el cumplimiento de su misión y visión.
+                                    </p>
+                                       <p>
+                                         <span style={{ fontWeight: 'bold' }}>Calidad:</span> Se regirá por los máximos niveles de excelencia e innovación en sus actividades y programas académicos a fin de asegurar el mejoramiento continuo en todos sus niveles de formación, educación continua, capacitación e investigación.
+                                        </p>
 
-                            <p>Mi eget mauris pharetra et ultrices neque ornare. Duis ut diam quam nulla porttitor massa. Amet dictum sit amet justo donec enim diam.</p>
-                            <div className="videos"><iframe width="100%" height="576" src="https://www.youtube.com/embed/e5Hc2B50Z7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-                            <p>Feel free to choose from our huge selection of templates, customize easily, and create a stunning website for your customers</p>
-
-                            <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi proin condimentum.</p>
+                            <div className="videos"><iframe width="660" height="315" src="https://www.youtube.com/embed/f-BnCysIkCo?si=y0Uoojez9CWW_LL_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
                             <ul className="mata-tags">
-                                <li className="tags">Tags:</li>
-                                <li><Link to="#">Education</Link></li>
-                                <li><Link to="#">Echooling</Link></li>
-                                <li><Link to="#">Course</Link></li>
-                                <li><Link to="#">Online Course</Link></li>
+                                
+                                <li><Link to="#">Educación De Calidad</Link></li>
+                                <li><Link to="#">Formación De Futuro</Link></li>
+                                
                             </ul>
 
                             <ul className="others-instructors">
@@ -57,25 +67,10 @@ const CourseDetailsMain = (props) => {
                     </div>
                     <div className="col-lg-4 md-mt-60">
                         <div className="react-sidebar react-back-course2 ml----30">                                                                        
-                            <div className="widget get-back-course">                                       
-                                <ul className="price__course">
-                                    <li> <i className="icon_ribbon_alt"></i> Cost: <b className="prs">{eventCost}</b></li>
-                                    <li> <i className="icon_profile"></i> Instructo: <b>{eventHost}</b></li>
-                                    <li> <i className="icon_group"></i> Total Slot: <b>{eventTotalSlot}</b></li>
-                                    <li><i className="icon_lock_alt"></i> Booked Slot: <b>{eventBookedSlot}</b></li>
-                                </ul>
-                                <Link to="#" className="start-btn">Join Now! <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link>
-                                <div className="share-course">Share this course <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></em>
-                                    <span>
-                                    <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
-                                        <Link to="#"><i aria-hidden="true" className="social_twitter"></i></Link>
-                                        <Link to="#"><i aria-hidden="true" className="social_linkedin"></i></Link>
-                                    </span>
-                                </div>
-                            </div> 
+                            
                             <div className="widget react-date-sec">
                                 <ul className="recent-date">
-                                    <li> Date: <b>{eventDate}</b></li>
+                                    <li> D: <b>{eventDate}</b></li>
                                     <li> Time: <b>{eventStartTime} - {eventEndTime}</b></li>
                                     <li> Venue: <b>{eventLocation}</b></li>
                                     <li> Phone: <b>{eventContactNo}</b></li>

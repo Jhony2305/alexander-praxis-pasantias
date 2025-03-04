@@ -72,7 +72,7 @@ const MenuItems = (props) => {
                         <Link to="/about">Historia</Link>
                     </li>
                     <li className={location.pathname === "/instructor" ? "menu-active" : ""}>
-                        <Link to="/instructor">Misión, Visión </Link>
+                        <Link to="/event/1">Misión, Visión </Link>
                     </li>
                     <li className={postURL[1] === "instructor" && pathLength > 2 ? "menu-active" : ""}>
                         <Link to="/instructor/">Plantel Docente</Link>

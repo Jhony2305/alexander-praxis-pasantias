@@ -15,7 +15,7 @@ const SingleEvent = (props) => {
                     </div>
                     <h3 className="event__card--title">
                         <Link to={`/event/${eventID}`}>
-                            {eventTitle ? eventTitle : 'A Better Alternative To Grading Student Writing'}
+                            {eventTitle ? eventTitle : 'A Better Alternative To Grading Student Writing prueba'}
                         </Link>
                     </h3>
                     <div className="event_location">
