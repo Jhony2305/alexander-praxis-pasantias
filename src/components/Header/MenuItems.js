@@ -75,7 +75,7 @@ const MenuItems = (props) => {
                         <Link to="/instructor">Misión, Visión </Link>
                     </li>
                     <li className={postURL[1] === "instructor" && pathLength > 2 ? "menu-active" : ""}>
-                        <Link to="/instructor/1">Plantel Docente</Link>
+                        <Link to="/instructor/">Plantel Docente</Link>
                     </li>
                     <li className={location.pathname === "/login" ? "menu-active" : ""}>
                         <Link to="/login">Asesores Académicos</Link>

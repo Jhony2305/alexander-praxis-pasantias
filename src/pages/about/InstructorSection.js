@@ -26,7 +26,7 @@ const Instructor = () => {
                                 </div>
                                 <div className="instructor__content-2">
                                     <h4>
-                                        <Link to={`/instructor/${data.id}`}>{data.name}</Link>
+                                        <Link to={`/instructor/`}>{data.name}</Link>
                                     </h4>
                                     <p>{data.designation}</p>
                                 </div>
@@ -55,7 +55,7 @@ const Instructor = () => {
                                 </div>
                                 <div className="instructor__content-2">
                                     <h4>
-                                        <Link to={`/instructor/${data.id}`}>{data.name}</Link>
+                                        <Link to={`/instructor/`}>{data.name}</Link>
                                     </h4>
                                     <p>{data.designation}</p>
                                 </div>

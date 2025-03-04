@@ -46,27 +46,27 @@ const Testimonial = () => {
 
     const counters = [
         {
-            countNum: 28,
-            countTitle: 'Foreign followers',
+            countNum: 40,
+            countTitle: 'Seguidores',
             countSubtext: 'k',
             countIcon: countIcon1,
         },
         {
             countNum: 10,
-            countTitle: 'Classes complete',
+            countTitle: 'Clases Completas',
             countSubtext: 'k',
             countIcon: countIcon2,
         },
         {
-            countNum : 208,
-            countTitle: 'Students enrolled',
+            countNum : 7000,
+            countTitle: 'Estudiantes Mariculados',
             countSubtext: 'k',
             countIcon: countIcon3,
         },
         {
-            countNum : 54,
-            countTitle: 'Certified Teachers',
-            countSubtext: 'k',
+            countNum : 150,
+            countTitle: 'Docentes',
+            countSubtext: ' ',
             countIcon: countIcon4,
         }
 
@@ -79,7 +79,6 @@ const Testimonial = () => {
                 <div className="react__title__section-all pb---30">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Satisfacción del estudiante</h6>
                             <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s">Comentarios de la comunidad<br/>Praxis</h2>
                         </div>                                
                     </div>                            
@@ -198,6 +197,7 @@ const Testimonial = () => {
                     </Slider>
                 </div>
             </div>
+            ggg
             {counters &&
                 <div className="count__area2 pb---100">
                     <div className="container">  
