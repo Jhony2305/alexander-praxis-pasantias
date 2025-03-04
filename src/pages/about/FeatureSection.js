@@ -14,8 +14,7 @@ const Feature = () => {
             <div className="react__title__section react__title__section-all">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Echooling available courses</h6>
-                        <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> Online Coaching Lessons For <br/>Remote Learning </h2>
+                        <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> Historia</h2>
                     </div>                                
                 </div>                            
             </div>
@@ -24,40 +23,50 @@ const Feature = () => {
                     <div className="col-md-4 wow animate__fadeInUp" data-wow-duration="0.3s">
                         <div className="item__inner">                                    
                             <div className="icon">
-                                <img src={icon1} alt="Icon image" />
-                            </div>
-                            <div className="react-content">
-                                <h3 className="react-title"><a href="coureses-grid.html">Accredited Campus</a></h3>
-                                <p>Nulla porttitor accumsan tincidunt. vamus <br/>magna justo, lacinia eget consectetur sed, <br/>convallis at tellus.</p>
-                                <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                            </div>                                    
-                        </div>
-                    </div>
-                    <div className="col-md-4 wow animate__fadeInUp" data-wow-duration="0.5s">
-                        <div className="item__inner">                                    
-                            <div className="icon">
                                 <img src={icon2} alt="Icon image" />
                             </div>
                             <div className="react-content">
-                                <h3 className="react-title"><a href="coureses-grid.html">Best Quality Graduate</a></h3>
-                                <p>Nulla porttitor accumsan tincidunt. vamus <br/>magna justo, lacinia eget consectetur sed, <br/>convallis at tellus.</p>
-                                <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
-                            </div>                                    
+                                <h3 className="react-title"><a href="coureses-grid.html">Acerca de Praxis</a></h3>
+                                <p style={{ textAlign: "justify", margin: "0 auto", maxWidth: "800px" }}>
+                                  En el año 2015, se inauguró Praxis, un centro educativo promovido por diversas entidades representativas de la sociedad de Quito y respaldado por la Universidad de los Hemisferios y la Cámara Artesanal del Pichincha. El propósito de este centro es ofrecer tanto modalidades presenciales como no presenciales para facilitar el acceso a la enseñanza técnica y tecnológica a todas las personas que desean cursar dichos programas, independientemente de sus circunstancias personales, laborales, residenciales u otras.
+                                </p>
+
+                            </div>  
+                                                              
                         </div>
+                        
                     </div>
-                    <div className="col-md-4 wow animate__fadeInUp" data-wow-duration="0.7s">
-                        <div className="item__inner">                                    
-                            <div className="icon">
-                                <img src={icon3} alt="Icon image" />
+                    <div class="col-md-4 wow animate__fadeInUp" data-wow-duration="0.5s">
+                        <div class="item__inner">                                    
+                            <div class="icon">
+                                <img src={icon2} alt="Icon image" />
                             </div>
-                            <div className="react-content">
-                                <h3 className="react-title"><a href="coureses-grid.html">Inspiring Student Life</a></h3>
-                                <p>Nulla porttitor accumsan tincidunt. vamus <br/>magna justo, lacinia eget consectetur sed, <br/>convallis at tellus.</p>
-                                <a href="#"> Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+                            <div class="react-content">
+                                <h3 class="react-title"><Link to="/course">Sucursales</Link></h3>
+                                <p style={{ textAlign: "justify", margin: "0 auto", maxWidth: "800px" }}>En la actualidad Praxis cuenta con sucursales en Quito y Guayaquil facilitando la educación a cerca de 1000 individuos. Enfoncados en una metodología práctica y con un alto sentido de resposabilidad hacia sus estudiantes.<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></p>
                             </div>                                    
                         </div>
-                    </div>                            
+
+
+                    </div>
+                    <div className="col-md-4 wow animate__fadeInUp" data-wow-duration="0.5s">
+    <div className="item__inner">
+        <div className="icon">
+            <img src={icon2} alt="Icon image" />
+        </div>
+        <div className="react-content">
+            <h3 className="react-title">Ver documento PDF</h3>
+            <iframe 
+                src="/ruta/del/archivo.pdf" 
+                style={{ width: "100%", height: "500px", border: "none" }} 
+                title="Documento PDF">
+            </iframe>
+        </div>
+    </div>
+</div>
+                         
                 </div>
+                
             </div>
         </div>
     );

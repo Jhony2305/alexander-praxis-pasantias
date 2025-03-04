@@ -21,7 +21,7 @@ const About = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     
-                    <Breadcrumb pageTitle="About Us" />
+                    <Breadcrumb pageTitle="Nosotros" />
 
                     <AboutMain />
 

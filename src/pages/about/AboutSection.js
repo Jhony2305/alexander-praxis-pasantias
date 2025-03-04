@@ -7,26 +7,32 @@ import aboutImg from '../../assets/images/about/ab.png'
 const AboutPart = () => {
 
     return (
-        <div className="about__area about__area_one p-relative pt---100 pb---120">
-            <div className="container"> 
+        <div className="about__area about__area_one p-relative pt---10 pb---120">
+            <div className="container">                        
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="about__image wow animate__fadeInUp" data-wow-duration="0.3s">
+                        <div className="about__image">
                             <img src={aboutImg} alt="About" />
                             
                         </div>
                     </div>
                     <div className="col-lg-6">
-                    <div className="about__content">
-                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Welcome to aas <br/> <em>Echooling LMS Platform</em></h2>
-                            <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Education is both the act of teaching knowledge to others and<br/> the act of receiving knowledge from someone else.</p>
-                            <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s"> Have questions?  <Link to="#"> Get Free Guide </Link></p>
-                            <p className="wow animate__fadeInUp" data-wow-duration="0.9s">Education also refers to the knowledge received through schooling instruction <br/>and to the institution of teaching as a whole. The main purpose of education <br/>is the integral development of a person.</p>
-                            <ul>
-                                <li><Link to="/about" className="more-about wow animate__fadeInUp" data-wow-duration="1.2s"> Read More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
-                                <li className="last-li wow animate__fadeInUp" data-wow-duration="1.3s">
-                                    <em>Get Support</em>
-                                    <a href="mailto:support@react.com">support@react.com</a>
+                        <div className="about__content">
+                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Somos Praxis,<br/> <em>Somos Futuro</em></h2>
+                            <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Mejora tus habilidades laborales con nuestra capacitación continua. Aprende en un ambiente amigable y alcanza el éxito profesional.<br/></p>
+                            <ul className="wow animate__fadeInUp" data-wow-duration="0.9s">
+                                <li><Link to="/contact" className="more-about">Inscríbete <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
+                               
+                            </ul>
+                            <p className="about__paragraph2 wow animate__fadeInUp" data-wow-duration="0.7s">  </p>
+                            
+                            <h2 className="about__title wow animate__fadeInUp" data-wow-duration="0.3s">Educación de<br/> <em>Calidad</em></h2>
+                            <p className="about__paragraph wow animate__fadeInUp" data-wow-duration="0.5s">Contamos con un equipo de expertos altamente calificados que se dedican a brindar a nuestros estudiantes una experiencia de aprendizaje enriquecedora y práctica.<br/>Ofrecemos cursos en línea y presenciales para <br/>garantizar que nuestros estudiantes tengan <br/>acceso a la capacitación que necesitan para <br/>crecer y destacarse en la industria.<br/><br/></p>
+                            <ul className="wow animate__fadeInUp" data-wow-duration="0.9s">
+                                <li><Link to="/about" className="more-about"> Leer Más <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link></li>
+                                <li className="last-li">
+                                    <em>Soporte a</em>
+                                    <Link to="/contact">infor@gmail.com</Link>
                                 </li>
                             </ul>
                         </div>
