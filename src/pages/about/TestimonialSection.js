@@ -79,8 +79,8 @@ const Testimonial = () => {
                 <div className="react__title__section-all pb---30">
                     <div className="row">
                         <div className="col-md-12 text-center">
-                            <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Student Satisfaction</h6>
-                            <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s">Student Community <br/>Feedback</h2>
+                            <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Satisfacción del estudiante</h6>
+                            <h2 className="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s">Comentarios de la comunidad<br/>Praxis</h2>
                         </div>                                
                     </div>                            
                 </div>                       
@@ -97,7 +97,10 @@ const Testimonial = () => {
                                         <em className="icon_star_alt"></em>
                                         <span> (14 Reviews) </span>
                                     </div>
-                                    <div className="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
+                                    <div className="parag" style={{ textAlign: 'justify' }}>
+                                          Ambiente estructurado y enfocado: "Estudiar en un Praxis proporciona un entorno organizado y estructurado, lo que me ayuda a mantenerme enfocado y aprovechar al máximo mi tiempo de estudio."
+                                 </div>
+
                                 </div>
                                 <img className="poly" src={polyImg} alt="image" />
                             </div>
@@ -106,8 +109,8 @@ const Testimonial = () => {
                                     <img src={testiImg1} alt="image" />
                                 </div>
                                 <div className="text">
-                                    <h4>Pelican Steve</h4>
-                                    <p>Student</p>
+                                    <h4>Jhony</h4>
+                                    <p>Alumno</p>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +125,9 @@ const Testimonial = () => {
                                         <em className="icon_star_alt"></em>
                                         <span> (18 Reviews) </span>
                                     </div>
-                                    <div className="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
+                                    <div className="parag" style={{ textAlign: 'justify' }}>
+                                          Ambiente estructurado y enfocado: "Estudiar en un Praxis proporciona un entorno organizado y estructurado, lo que me ayuda a mantenerme enfocado y aprovechar al máximo mi tiempo de estudio."
+                                 </div>
                                 </div>
                                 <img className="poly" src={polyImg} alt="image" />
                             </div>
@@ -131,8 +136,8 @@ const Testimonial = () => {
                                     <img src={testiImg2} alt="image" />
                                 </div>
                                 <div className="text">
-                                    <h4>Chase Kroll</h4>
-                                    <p>IT Specialist</p>
+                                    <h4>Alexander Diaz</h4>
+                                    <p> Alumno</p>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +152,9 @@ const Testimonial = () => {
                                         <em className="icon_star_alt"></em>
                                         <span> (26 Reviews) </span>
                                     </div>
-                                    <div className="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
+                                    <div className="parag" style={{ textAlign: 'justify' }}>
+                                          Ambiente estructurado y enfocado: "Estudiar en un Praxis proporciona un entorno organizado y estructurado, lo que me ayuda a mantenerme enfocado y aprovechar al máximo mi tiempo de estudio."
+                                 </div>
                                 </div>
                                 <img className="poly" src={polyImg} alt="image" />
                             </div>
@@ -156,8 +163,8 @@ const Testimonial = () => {
                                     <img src={testiImg3} alt="image" />
                                 </div>
                                 <div className="text">
-                                    <h4>Jackson Pot</h4>
-                                    <p>Teacher</p>
+                                    <h4>Juan Vera</h4>
+                                    <p>Alumno</p>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +179,9 @@ const Testimonial = () => {
                                         <em className="icon_star_alt"></em>
                                         <span> (14 Reviews) </span>
                                     </div>
-                                    <div className="parag">We are a Portsmouth based web design and e-marketing agency. We understand how important a website is to any business, big or small. Your online presence is now more important than ever before.</div>
+                                    <div className="parag" style={{ textAlign: 'justify' }}>
+                                          Ambiente estructurado y enfocado: "Estudiar en un Praxis proporciona un entorno organizado y estructurado, lo que me ayuda a mantenerme enfocado y aprovechar al máximo mi tiempo de estudio."
+                                 </div>
                                 </div>
                                 <img className="poly" src={polyImg} alt="image" />
                             </div>
@@ -181,8 +190,8 @@ const Testimonial = () => {
                                     <img src={testiImg2} alt="image" />
                                 </div>
                                 <div className="text">
-                                    <h4>Pelican Steve</h4>
-                                    <p>Student</p>
+                                    <h4>Rosales Cecilia</h4>
+                                    <p>Docente</p>
                                 </div>
                             </div>
                         </div>
