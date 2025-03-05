@@ -21,7 +21,7 @@ const Login = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     <Breadcrumb
-                        pageTitle="Login"
+                        pageTitle="Asesores Académicos "
                     />
 
                     <LoginMain />

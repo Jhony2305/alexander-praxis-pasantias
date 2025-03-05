@@ -197,7 +197,6 @@ const Testimonial = () => {
                     </Slider>
                 </div>
             </div>
-            ggg
             {counters &&
                 <div className="count__area2 pb---100">
                     <div className="container">  

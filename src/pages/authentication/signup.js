@@ -21,7 +21,7 @@ const Signup = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     <Breadcrumb
-                        pageTitle="Signup"
+                        pageTitle="Modelo Educativo"
                     />
 
                     <SignupMain />

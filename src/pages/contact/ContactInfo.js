@@ -11,15 +11,15 @@ const ContactInfo = (props) => {
         <ul className="address-sec">
             <li>
                 <em className="icon"><img src={infoImg1} alt="image" /></em>
-                <span className="text"><em>Address</em> 1800 Abbot Kinney Blvd. Unit D<br/> & E Venice</span>
+                <span className="text"><em>Dirección</em>Quito<br/> Av. Victor Hugo<br/> E10-13 Y París, Quito <br/> <br/>Guayaquill<br/> Av. Garzota 3 calle:,<br/> Eloy Vazquez Cevallos<br/> N8 Y, Guayaquil  </span>
             </li>
             <li>
                 <em className="icon"><img src={infoImg2} alt="image" /></em>
-                <span className="text"><em>Contact</em> <a href="#">Mobile: (+88) - 1990 - 6886</a> <a href="#">Mail: contact@echooling.com</a></span>
+                <span className="text"><em>Contactos</em> <a href="#">Telefono: (+593) 992382355</a> <a href="#">Correo: DiazVasquez@hotmail.com</a></span>
             </li>
             <li>
                 <em className="icon"><img src={infoImg3} alt="image" /></em>
-                <span className="text"><em>Hour of operation</em> Monday - Friday: 09:00 - 20:00 <br/>Sunday & Junday: 10:30 - 22:00</span>
+                <span className="text"><em>Horario de Atención</em> Lunes - Viernes: 09:00 - 18:00 <br/>Sábado & Domingo: 09:00 - 18:00</span>
             </li>
         </ul>
     );

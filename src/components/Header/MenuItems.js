@@ -106,22 +106,11 @@ const MenuItems = (props) => {
             <Link to="/course">Cursos</Link>
                  </li>
 
-            <li className={parentMenu === 'blog' ? 'has-sub menu-active' : 'has-sub'}>
-                <Link to="#" className={blog ? "hash menu-active" : "hash"} onClick={() => { openMobileMenu('blog'); }}>
-                    Blog
-                    <span className="arrow "></span>
-                </Link>
-                <ul className={blog ? "sub-menu sub-menu-open" : "sub-menu"}>
-                    <li className={location.pathname === "/blog" ? "menu-active" : ""}>
-                        <Link to="/blog">Blog</Link>
-                    </li>
-                    <li className={postURL[1] === "blog" && pathLength > 2 ? "menu-active" : ""}>
-                        <Link to="/blog/1">Blog Single</Link>
-                    </li>
-                </ul>
+                 <li className={location.pathname === '' ? 'menu-active' : ''}>
+                <Link to="https://virtual.praxis.com.ec/" target="_blank" >Moodle Praxis </Link>
             </li>
             <li className={location.pathname === '/contact' ? 'menu-active' : ''}>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Contacto</Link>
             </li>
         </>
     );

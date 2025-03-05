@@ -4,6 +4,10 @@ const LoginMain = () => {
     return (
         <>
             <div className="react-login-page react-signup-page pt---120 pb---120">
+            <div>
+                <h1 className="text-center">En proceso</h1>
+            </div> 
+                {/*
                 <div className="container">
                     <div className="row">                            
                         <div className="col-lg-12">
@@ -36,6 +40,7 @@ const LoginMain = () => {
                         </div>
                     </div>
                 </div>
+                */}
             </div>   
         </>
 
