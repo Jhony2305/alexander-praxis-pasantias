@@ -18,11 +18,7 @@ const InstructorMain = () => {
                                     <img src={require(`../../assets/images/instructor/${data.image}`)} alt={data.name} />
                                     <div className="content__hover">
                                         <p>{data.bio}</p>
-                                        <ul>                                            
-                                        <li><a href="https://www.facebook.com/praxisEC" target="_blank" rel="noopener noreferrer"> <span aria-hidden="true" className="social_facebook" style={{ fontSize: "28px" }}></span> </a></li>
-                                            <li><a href="#"><span aria-hidden="true" className="social_twitter"></span></a></li>
-                                            <li><a href="#"><span aria-hidden="true" className="social_linkedin"></span></a></li>
-                                        </ul>
+                                        
                                     </div>
                                 </div>                                    
                                 <div className="bottom-content"> 
