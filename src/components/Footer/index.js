@@ -33,8 +33,8 @@ const Footer = (props) => {
                                         <ul>
                                             <li><Link to="/about">Historia</Link></li>
                                             <li><Link to="/course">Cursos</Link></li>
-                                            <li><Link to="#">Asesores</Link></li>
-                                            <li><Link to="/instructor">Misión Visión</Link></li>
+                                            <li><Link to="/login">Asesores</Link></li>
+                                            <li><Link to="/event/1">Misión Visión</Link></li>
                                             <li><Link to="/contact">Contáctanos</Link></li>
                                         </ul>
                                     </div>

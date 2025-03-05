@@ -21,7 +21,7 @@ const Contact = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     <Breadcrumb
-                        pageTitle="Contact"
+                        pageTitle="Contáctanos"
                     />
 
                     <ContactMain />
