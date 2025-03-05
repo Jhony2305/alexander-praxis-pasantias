@@ -3,74 +3,74 @@
     {
         "id": 1,
         "image": "1.jpg",
-        "name": "Douglas Lyphe",
-        "designation" : "Principal",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "douglas@echooling.com"
+        "name": "Lic. Cynthia Sotomayor",
+        "designation" : "Peluquería Canina",
+        "bio": "Exlente Docente de Peluqueria 15 años Experiencia",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 2,
         "image": "2.jpg",
-        "name": "Eleanor Fant",
-        "designation" : "Lead Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "eleanor@echooling.com"
+        "name": "Lic. Beatriz Sánchez Quiropraxia",
+        "designation" : "Quiropraxia",
+        "bio": "Exlente Docente de Quiropraxia 15 años Experiencia",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 3,
         "image": "3.jpg",
-        "name": "Magnus Lee",
-        "designation" : "Administration",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "magnus@echooling.com"
+        "name": "Lic. Maryerli Yaraure",
+        "designation" : "Veterinaria",
+        "bio": "Exlente Docente de Veterinaria 15 años Experiencia.",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 4,
         "image": "4.jpg",
-        "name": "Hanson Deck",
-        "designation" : "Professor",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "hanson@echooling.com"
+        "name": "Lic. Desiree Jiménez",
+        "designation" : "Fisioterapia, Quiropraxia y Acupuntura",
+        "bio": "Exlente Docente .",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 5,
         "image": "5.jpg",
-        "name": "Becky Curry",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "becky@echooling.com"
+        "name": "Licenciada Shuyana Yantza",
+        "designation" : "Veterinaria",
+        "bio": "Exlente Docente de Veterinaria 15 años Experiencia.",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 6,
         "image": "6.jpg",
-        "name": "Giles Posture",
-        "designation" : "Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "giles@echooling.com"
+        "name": "Licenciada Elizabeth Sarango",
+        "designation" : "Podología y EE y dermato",
+        "bio": "Exlente Docente de Veterinaria 15 años Experiencia..",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 7,
         "image": "7.jpg",
-        "name": "Jackson Pot",
-        "designation" : "Special Assistant",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "jakson@echooling.com"
+        "name": "Lic. Marianela Salón",
+        "designation" : "EE y dermato",
+        "bio": "Exlente Docente.",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 8,
         "image": "8.jpg",
-        "name": "Jessica Lyphe",
-        "designation" : "Teacher",
-        "bio": "Why I say old chap that is spiffing he legged easy peasy.",
-        "phone": "+(088) 223 478 365",
-        "email": "jessica@echooling.com"
+        "name": "Lic. Luis Moreno Criminalística",
+        "designation" : "Criminalística",
+        "bio": "Exlente Docente",
+        "phone": " ",
+        "email": " "
     },
     {
         "id": 9,
